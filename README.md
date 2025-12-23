@@ -24,16 +24,20 @@ A virtual machine (VM) is an operating system running inside of another operatin
 
 
 <h2>Creating the virtual machine steps</h2>
+<img width="845" height="830" alt="image" src="https://github.com/user-attachments/assets/3901b038-83d1-4607-8de9-fcb7d7afc19c" />
+
+<img width="1014" height="798" alt="image" src="https://github.com/user-attachments/assets/bc7925d2-e8aa-4fc5-a41b-ac4cb510ecf4" />
 
 <img width="992" height="500" alt="image" src="https://github.com/user-attachments/assets/c902ccf4-4797-4da5-924e-f3dd3d33014a" />
 
-Create a resource to have a place for your virtual machine and make sure that you use the same region for both the group and the machine.
+Once you are inside of the Azure portal the resource group icon might be able to be seen on the home page if not use the search bar to find it. After clicking on (create) make sure when filling out the requirements that you name the group and VM something you will remember and also use the same region for both.
 </p>
 <br />
+<img width="1040" height="677" alt="image" src="https://github.com/user-attachments/assets/193a671a-dfba-4717-a9f7-ffc8707921c2" />
 
 <img width="729" height="822" alt="Screenshot 2025-11-11 113655" src="https://github.com/user-attachments/assets/2f8f5224-22bc-4d58-b75b-7e8cd2101468" />
 
-Now create a virtual machine within the group you created and make sure that you have it filled out the same way in the image above. Also at the bottom of the page make sure you clicke on the licensing agreement or it will not work.
+Now Search and create a virtual machine, while setting up your VM have it in the resource group you just created and the same region. The only requirements you need to care about are the Image(Windows 10 or 11),Size(Anything 2vcpus or above),Username(custom), Password(custom), and Licensing (box checked).  
 </p>
 <br />
 
@@ -42,6 +46,6 @@ Now create a virtual machine within the group you created and make sure that you
 <img width="542" height="298" alt="image" src="https://github.com/user-attachments/assets/a9f31269-a937-44e5-82cf-ede86d603bfc" />
 
 
-Once you VM is create of use it open remote desktop and put the public ip address that you VM has. After using the username and password you created you should be able to use the AM like a normal computer.
+Once your Virtual machine is create to use it open remote desktop and put the public ip address that you VM has. After using the username and password you created you should be able to use the AM like a normal computer.
 </p>
 <br />
